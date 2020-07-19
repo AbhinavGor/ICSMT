@@ -1,0 +1,23 @@
+{
+  "name": "icsmt",
+  "version": "1.0.0",
+  "description": "A website for people with similar interests to collaborate and share ideas on specific topics",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "author": "Abhinav Gorantla",
+  "license": "ISC",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.6.0",
+    "mongoose": "^5.9.25",
+    "nodemon": "^2.0.4",
+    "path": "^0.12.7"
+  }
+}
